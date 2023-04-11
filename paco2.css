@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+body {
+    background-color: black;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display:flex;
+    margin-right: 10%;
+    
+}
+
+.navbar a {
+    display: block;
+    padding: 3% 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    background: rgba(128, 128, 128, 0.568);
+}
+
+/*primera imagen*/
+
+header {
+    height: 100vh !important;
+    background: url(fondol.jpg) no-repeat center fixed;
+    background-size: 100%;
+}
+
+
+/*seccion 1*/
+
+.presentacion {
+    background:  center 100% 50%;
+
+}
+
+.titulo1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 350%;
+    font-weight: 550;
+    text-transform: uppercase;
+    color: rgba(238, 233, 233, 0.801);
+    text-shadow: #664444 2px 2px 2px;
+    text-align: center;
+}
+
+.presentacion p {
+        margin-top: 4%;
+        margin-bottom: 70px;
+        font-size: 110%;
+        color:darkgrey;
+        padding: 1px 30px;
+        text-align: center;
+    }
+
+    em {
+        font-weight: 950;
+    }
+
+/*seccion 2*/
+/*seccion 3*/
+
