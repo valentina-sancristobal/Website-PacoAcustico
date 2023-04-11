@@ -53,14 +53,16 @@ header {
 
 /*seccion 1 - Presentacion*/
 
-.presentacion {
-    background:  center 100% 50%;
+#presentacion {
+    background:  center 100% 50% no-repeat;
+    background-color: black;
+    margin-top: -4%;
 
 }
 
-.titulo1 {
+#titulo1 {
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: -1%;
     font-size: 350%;
     font-weight: 550;
     text-transform: uppercase;
@@ -69,7 +71,7 @@ header {
     text-align: center;
 }
 
-.presentacion p {
+#presentacion p {
         margin-top: 4%;
         margin-bottom: 70px;
         font-size: 110%;
@@ -84,33 +86,106 @@ header {
 
 /*seccion 2 - Galeria*/
 
-.galeria {
-    width: 100%;
+#galeria {
+    margin-top: 7%;
+    margin-bottom: 0%;
     height: 100%;
-    background:  center;
+    background:  center 100% 100%;
     background: url(guitarras.jpg) no-repeat center fixed;
-    background-size: 150% 150%;
+    background-size: 100%;
 
 }
 
 .titulo2 {
-    margin-top: 5%;
-    margin-bottom: -2%;
     font-size: 370%;
     font-weight: 700;
     text-transform: uppercase;
     color: rgba(255, 0, 0, 0.864);
     text-shadow: #ffffffe6 5px 2px 5px;
     text-align: center;
+    
 
 }
 
 iframe{
     margin-left: 0.5%;
     margin-right: 0.5%;
-    margin-top: 4%;
+    margin-top: 5%;
+    margin-bottom: 20%;
 
 }
 
-/*seccion 3*/
+/*seccion 3 - contacto*/
+#contacto {
+    background:  center 100% 100%;
+    background-color: darkgray;
+    margin-top: -15%;
+    margin-bottom: 0%;
 
+}
+
+.titulo3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 350%;
+    font-weight: 550;
+    text-transform: uppercase;
+    color: rgba(238, 233, 233, 0.801);
+    text-shadow: #664444 2px 2px 2px;
+    text-align: center;
+}
+
+    /*iconos redes sociales y boton contact me*/
+
+    table{
+        border: 3px;
+        height: 50px;
+        width: 200px;
+        margin-top: 35px;
+        margin-left: 85px;
+    }
+    
+    .insta{
+        background-image: url(https://cdn-icons-png.flaticon.com/512/87/87390.png);
+        background-size:cover;
+        width: 4px;
+        cursor: pointer;
+    }
+    
+    .twitter{
+        background-image: url(https://cdn-icons-png.flaticon.com/512/733/733635.png);
+        width: 4px;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .facebook{
+        background-image: url(https://cdn-icons-png.flaticon.com/512/59/59439.png);
+        width: 4px;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .discord{
+        background-image: url(https://www.freeiconspng.com/uploads/discord-black-icon-1.png);
+        width: 4px;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .btn{
+        outline: none;
+        background-color: rgb(230, 142, 208);
+        margin-top: 40px;
+        border: none;
+        height: 40px;
+        width: 35%;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+    
+    .btn:hover{
+        background-color: rgb(187, 142, 230);
+        cursor: pointer;
+    }

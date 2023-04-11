@@ -6,25 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PACO WEB</title>
     <link rel="stylesheet" href="paco2.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
 </head>
 
 <body>
     <div class="head">
         <nav class="navbar">
-            <a href="#">Inicio</a>
-            <a href="#">Presentación</a>
-            <a href="#">galeria</a>
+            <a href="#content header">Inicio</a>
+            <a href="#presentacion">Presentación</a>
+            <a href="#galeria">galeria</a>
             <a href="#">contacto</a>
         </nav>
     </div>
-    <header class="content header">
-        <a href="#"><i class="f16d"></i></a>
+    <header id="content header">
+        /*seccion 0.0 imagen de portada*/
     </header>
-
-    <section class="presentacion">
-        <h2 class="titulo1">Presentación</h2>
+   
+    <section id="presentacion">
+        <h2 id="titulo1">Presentación</h2>
         <p>Paco es un cantautor  mexicano originario de Tijuana, Baja California Comenzó su proyecto en solitario <em>“Paco Acústico”</em> en 2019 y poco a poco está ganando notoriedad  a base de estar constantemente tocando en la escena latina y multicultural de Viena.
             Francisco es licenciado en derecho, profesor de español y cantautor, le ha apasionado siempre la música y ha formado parte de diferentes bandas que van desde el rock, pasando por otros ritmos como la tradicional mexicana, ska, punk y pop.
             En su adolescencia empezó a tomar lecciones de piano y guitarra pero su interés iba más alla de eso y empezó a tocar con un grupo de amigos donde hacían covers de las bandas de rock de los noventa como Nirvana, Stone temple pilots, Live, Foo Fighters  haciendo los coros siendo así su primera experiencia cantando.
@@ -39,20 +37,35 @@
             Paco es acompañado por su base de músicos de diferentes nacionalidades dandole un toque multicultural.
         </p>
     </section>
-
-    <section class="galeria">
+    
+    <section id="galeria">
         <h2 class="titulo2">Galería</h2>
         <iframe width="320" height="225" src="https://www.youtube.com/embed/YXYZ6E5pDiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="320" height="225" src="https://www.youtube.com/embed/r9wOVNk3xxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="320" height="225" src="https://www.youtube.com/embed/w55p8y0tHiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="320" height="225" src="https://www.youtube.com/embed/QeuYsN-RMKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        
     </section>
+   
+   
+    <section id="contacto">
+        <h2 class="titulo3">Contacto</h2>
+        
+        <div class="card">
+            <table>
+                <tr class="icons">
+                <td class="insta"></td>
+                <td class="twitter"></td>
+                <td class="facebook"></td>
+                <td class="discord"></td>
+                </tr>
+            </table>
 
-    <section class: contacto>
+            <button class="btn">Contact</button>
+        </div>
+
         tarjeta presentacion con links
     </section>
-
+   
     <footer>
         copyright
     </footer>
