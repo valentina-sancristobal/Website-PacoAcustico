@@ -142,28 +142,28 @@ iframe{
     }
     
     .insta{
-        background-image: url(https://www.svgrepo.com/show/424911/instagram-logo-facebook-2.svg);
+        background: url(https://www.svgrepo.com/show/424911/instagram-logo-facebook-2.svg) no-repeat center center;
         background-size:cover;
         width: 4px;
         cursor: pointer;
     }
     
     .facebook{
-        background-image: url(https://www.svgrepo.com/show/473600/facebook.svg);
+        background: url(https://www.svgrepo.com/show/473600/facebook.svg) no-repeat center center;
         width: 4px;
         background-size: cover;
         cursor: pointer;
     }
     
     .youtube{
-        background-image: url(https://www.svgrepo.com/show/513089/youtube-168.svg);
+        background: url(https://www.svgrepo.com/show/513089/youtube-168.svg) no-repeat center center;
         width: 4px;
         background-size: cover;
         cursor: pointer;
     }
 
     .spotify{
-        background-image: url(https://www.svgrepo.com/show/346391/spotify-fill.svg);
+        background: url(https://www.svgrepo.com/show/346391/spotify-fill.svg) no-repeat center center;
         width: 4px;
         background-size: cover;
         cursor: pointer;
@@ -171,7 +171,7 @@ iframe{
     
     .btn{
         outline: none;
-        background-color: rgba(0, 0, 0, 0.685);
+        background-color: rgba(88, 60, 60, 0.527);
         margin-top: 40px;
         border: none;
         height: 40px;
@@ -183,11 +183,6 @@ iframe{
     }
     
     .btn:hover{
-        background-color: rgba(59, 59, 59, 0.856);
+        background-color: rgba(59, 59, 59, 0.226);
         cursor: pointer;
     }
-
-
-    /*nota para mañana: dejar icono de insta y de facebook en seccion contacto,
-    junto con el boton de contact me, centrar estos elementos en esta seccion.
-    probar como queda pasar los iconos de spotify y youtube a la seccion de portada*/
