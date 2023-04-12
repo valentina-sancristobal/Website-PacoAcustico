@@ -228,8 +228,12 @@ footer:hover{
         width: 50%; 
         height: 50%;
     }
+    .head{
+        height: 10%;
+        margin-top: 0;
+    }
     .navbar a {
-    font-size: 70%;
+    font-size: 60%;
     font-weight: 700;
 }
 }
