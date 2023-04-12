@@ -130,8 +130,8 @@ iframe{
     font-size: 350%;
     font-weight: 550;
     text-transform: uppercase;
-    color: rgba(238, 233, 233, 0.801);
-    text-shadow: #664444 2px 2px 2px;
+    color: rgba(0, 0, 0, 0.801);
+    text-shadow: #555353 2px 2px 2px;
     text-align: center;
 }
 
@@ -146,28 +146,28 @@ iframe{
     }
     
     .insta{
-        background-image: url(https://cdn-icons-png.flaticon.com/512/87/87390.png);
+        background-image: url(https://www.svgrepo.com/show/424911/instagram-logo-facebook-2.svg);
         background-size:cover;
         width: 4px;
         cursor: pointer;
     }
     
-    .twitter{
-        background-image: url(https://cdn-icons-png.flaticon.com/512/733/733635.png);
-        width: 4px;
-        background-size: cover;
-        cursor: pointer;
-    }
-    
     .facebook{
-        background-image: url(https://cdn-icons-png.flaticon.com/512/59/59439.png);
+        background-image: url(https://www.svgrepo.com/show/473600/facebook.svg);
         width: 4px;
         background-size: cover;
         cursor: pointer;
     }
     
-    .discord{
-        background-image: url(https://www.freeiconspng.com/uploads/discord-black-icon-1.png);
+    .youtube{
+        background-image: url(https://www.svgrepo.com/show/513089/youtube-168.svg);
+        width: 4px;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .twitter{
+        background-image: url(https://www.svgrepo.com/show/346391/spotify-fill.svg);
         width: 4px;
         background-size: cover;
         cursor: pointer;
@@ -189,3 +189,8 @@ iframe{
         background-color: rgb(187, 142, 230);
         cursor: pointer;
     }
+
+
+    /*nota para mañana: dejar icono de insta y de facebook en seccion contacto,
+    junto con el boton de contact me, centrar estos elementos en esta seccion.
+    probar como queda pasar los iconos de spotify y youtube a la seccion de portada*/
