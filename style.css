@@ -228,5 +228,9 @@ footer:hover{
         width: 50%; 
         height: 50%;
     }
+    .navbar a {
+    font-size: 70%;
+    font-weight: 700;
+}
 }
     
