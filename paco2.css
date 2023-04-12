@@ -24,8 +24,7 @@ body {
 
 .navbar{
     display:flex;
-    margin-right: 10%;
-    
+    margin-right: 10%; 
 }
 
 .navbar a {
@@ -49,8 +48,6 @@ header {
     background: url(fondol.jpg) no-repeat center fixed;
     background-size: 100%;
 }
-
-
 /*seccion 1 - Presentacion*/
 
 #presentacion {
@@ -117,7 +114,7 @@ iframe{
 
 /*seccion 3 - contacto*/
 #contacto {
-    background:  center 100% 100%;
+    background:  center 100% 80%;
     background-color: darkgray;
     margin-top: -15%;
     margin-bottom: 0%;
@@ -139,10 +136,9 @@ iframe{
 
     table{
         border: 3px;
-        height: 50px;
-        width: 200px;
-        margin-top: 35px;
-        margin-left: 85px;
+        height: 62px;
+        width: 250px;
+        margin-top: -1%;
     }
     
     .insta{
@@ -166,7 +162,7 @@ iframe{
         cursor: pointer;
     }
 
-    .twitter{
+    .spotify{
         background-image: url(https://www.svgrepo.com/show/346391/spotify-fill.svg);
         width: 4px;
         background-size: cover;
@@ -175,18 +171,19 @@ iframe{
     
     .btn{
         outline: none;
-        background-color: rgb(230, 142, 208);
+        background-color: rgba(0, 0, 0, 0.685);
         margin-top: 40px;
         border: none;
         height: 40px;
-        width: 35%;
+        width: 30%;
         font-size: 16px;
         font-weight: bold;
         border-radius: 30px;
+        color: darkgray;
     }
     
     .btn:hover{
-        background-color: rgb(187, 142, 230);
+        background-color: rgba(59, 59, 59, 0.856);
         cursor: pointer;
     }
 
