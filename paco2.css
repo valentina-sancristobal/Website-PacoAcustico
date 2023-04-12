@@ -186,3 +186,10 @@ iframe{
         background-color: rgba(59, 59, 59, 0.226);
         cursor: pointer;
     }
+/*pie de pagina - footer*/
+
+footer{
+    background: #000000 100% 5% no-repeat;
+    color: #555353;
+    text-align: right;
+}
