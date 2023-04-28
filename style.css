@@ -29,7 +29,7 @@ body {
 
 .navbar a {
     display: block;
-    padding: 3% 20px;
+    padding: 5% 20px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -205,22 +205,32 @@ footer:hover{
 
 @media only screen and (max-width: 768px) {
     body {
-    margin: 2% 2% ;
+    margin:0 2% 2% ;
     border: 0;
     vertical-align: baseline;
-    }
-    #titulo1 {
-        font-size: 200%;
-    }
-    .titulo2 {
-        font-size: 200%;
-    }
-    .titulo3 {
-        font-size: 200%;
     }
     #presentacion p {
         font-size: 80%;
     }
+    #titulo1 {
+        font-size: 200%;
+    }
+    #galeria {
+        background:  center 100% 50% no-repeat;
+        background-color:#171717;
+        background-image: none;
+    }
+    .titulo2 {
+        font-size: 200%;
+        color: rgba(238, 233, 233, 0.801);
+        text-shadow: #664444 2px 2px 2px; 
+        text-align: center;
+    }
+    .titulo3 {
+        font-size: 200%;
+    }
+   
+    
     iframe{
         margin-left: 25%;
         margin-top: 5%;
@@ -233,7 +243,8 @@ footer:hover{
         margin-top: 0;
     }
     .navbar a {
-    font-size: 60%;
+    padding: 5% 5%;
+    font-size: 70%;
     font-weight: 700;
 }
 }
