@@ -44,7 +44,7 @@ body {
 /*primera imagen - Inicio*/
 
 header {
-    height: 100vh !important;
+    height: 100vh;
     background: url(fondol.jpg) no-repeat center fixed;
     background-size: 100%;
 }
@@ -217,7 +217,12 @@ footer:hover{
     padding: 5% 5%;
     font-size: 70%;
     font-weight: 700;
-}
+    }
+    header {
+        height: 100vh;
+        background: url(fondolIso.jpg) no-repeat center fixed;
+        background-size: 100%;
+    }
     #presentacion p {
         font-size: 80%;
     }
@@ -238,8 +243,6 @@ footer:hover{
     .titulo3 {
         font-size: 200%;
     }
-   
-    
     iframe{
         margin-left: 25%;
         margin-top: 5%;
