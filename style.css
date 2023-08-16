@@ -96,9 +96,10 @@ header {
     font-size: 370%;
     font-weight: 700;
     text-transform: uppercase;
-    color: rgba(255, 0, 0, 0.864);
-    text-shadow: #ffffffe6 5px 2px 5px;
+    color: black;
+    /*text-shadow: #ffffffe6 5px 2px 5px;*/
     text-align: center;
+    z-index: 3;
     
 
 }
@@ -128,7 +129,7 @@ iframe{
     font-size: 350%;
     font-weight: 550;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.801);
+    color: black;
     text-shadow: #555353 2px 2px 2px;
     text-align: center;
 }
@@ -205,13 +206,13 @@ footer:hover{
 
 @media only screen and (max-width: 768px) {
     body {
-    margin:0 2% 2% ;
+    margin:0 2% 2% 2%;
     border: 0;
     vertical-align: baseline;
     }
     .head{
         height: 10%;
-        margin-top: 0;
+        margin: 0 0 0 -1.7%;
     }
     .navbar a {
     padding: 5% 5%;
@@ -219,7 +220,10 @@ footer:hover{
     font-weight: 700;
     }
     header {
-        background: url(fondolIso.jpg) 100% 100% no-repeat center;
+        padding: 0em 0em 0em 0em ;
+        background: url(fondol.jpg) -80rem -20rem no-repeat;
+
+        
     }
     #presentacion p {
         font-size: 80%;
